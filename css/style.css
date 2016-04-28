@@ -1,0 +1,100 @@
+.navimg {
+    border: 0;
+    height: 50;
+    vertical-align: sub;
+    margin-top: 5;
+    padding-right: 10;
+}
+.input-field label {
+     color: #000;
+   }
+.input-field input[type=text]:focus + label {
+     color: #0000ff;
+   }
+
+ .input-field input[type=text]:focus {
+     border-bottom: 1px solid #0000ff;
+     box-shadow: 0 1px 0 0 #0000ff;
+   }
+
+   .input-field .prefix.active {
+     color: #0000ff;
+   }
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+ 
+footer {
+   bottom:0px;
+   width:100%;  
+}
+
+#cover  {
+    background-color: black;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:50;
+    text-align: center;
+  vertical-align: middle;
+}
+#data
+{
+  z-index: 51;
+  font-size: 2em;
+  top: 50%;
+  left: 50%;
+  position:fixed;
+  color: greenyellow;
+  transform: translate(-50%, -50%);
+}
+
+#data1
+{
+  z-index: 51;
+  font-size: 1em;
+  top: 50%;
+  left: 50%;
+  position:fixed;
+  color: yellow;
+  transform: translate(-50%, -50%);
+}
+
+#option1{
+  height: 15em;
+  content :center;
+  width: 15em;
+  border-radius: 50%;
+  background-color: green;
+  padding-bottom: 20px;
+}
+
+#upload{
+  color: white;
+  padding-top: 20%;
+}
+#h5{
+  color: white;
+}
+
+ .parallax-container {
+      height: 500px; 
+    } 
+
